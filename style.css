@@ -81,3 +81,16 @@ a span{
         padding: 20px auto; 
     }
 }
+
+@media only screen and (max-width: 800px)
+{
+    .container{
+        background-color: white;
+        width: 80vw;
+        min-height: 100vh;
+    }
+
+    #card-links{
+        padding: 20px auto; 
+    }
+}
