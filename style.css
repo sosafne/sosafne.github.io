@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:Helvetica, sans-serif ;
+}
+
+body{
+    background-color: #c9c9c9;
+}
+
+.container{
+    background-color: white;
+    width: 30vw;
+    margin: auto;
+    min-height: 100vh;
+    border-left: 2px solid #888;
+    border-right: 2px solid #888;    
+}
+
+#card-top{
+    height: 50vh;
+}
+
+.card-header{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.art-image{
+    height: 80%;
+    background: url(img/sosa_profile.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card-links{
+    height: 50vh;
+    padding: 20px;
+}
+
+#card-links ul{
+    list-style: none;
+}
+
+#card-links ul a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #888; */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a span{
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+.link-img{
+    width:40px;
+}
+
+@media only screen and (max-width: 600px)
+{
+    .container{
+        background-color: white;
+        width: 100vw;
+        min-height: 100vh;
+    }
+
+    #card-links{
+        height: 50vh;
+        padding: 20px auto; 
+    }
+}
